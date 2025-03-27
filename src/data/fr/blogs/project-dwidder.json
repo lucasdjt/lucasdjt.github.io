@@ -1,8 +1,0 @@
-{
-    "title": "Dwidder",
-    "description": "Dwidder est un réseau social inspiré de Twitter et Facebook, utilisant JakartaEE et JSP. Il intègre PostgreSQL via JDBC, propose des posts, réactions, messagerie, groupes privés, ainsi qu'une API REST et une base admin.",
-    "date": "2025-03-20",
-    "href": "#projet-dwidder",
-    "importance": false,
-    "img": null
-}
