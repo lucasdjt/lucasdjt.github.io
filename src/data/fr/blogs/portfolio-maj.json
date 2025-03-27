@@ -1,8 +1,8 @@
 {
-    "titre": "Portofolio en travaux",
+    "title": "Portofolio en travaux",
     "description": "Création d'un nouveau portfolio utilisant JavaScript, TypeScript et React pour une interface moderne et dynamique.",
     "date": "2025-03-27",
-    "url": "#portfolio",
+    "href": "#portfolio",
     "importance": true,
     "img": null
 }

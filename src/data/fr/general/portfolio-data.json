@@ -1,0 +1,17 @@
+{
+    "title": "Portfolio - Lucas DE JESUS TEIXEIRA",
+    "nav": [
+        "Accueil",
+        "Compétences",
+        "Parcours et Expériences",
+        "Projets",
+        "Loisirs",
+        "Me Contacter"
+    ],
+    "presentationFile": "/data/fr/general/home_description.txt",
+    "personalInformation": {
+        "birth": "2005-05-10",
+        "driverLicense": "B",
+        "location": "Villeneuve-d'Ascq, France"
+    }   
+}
