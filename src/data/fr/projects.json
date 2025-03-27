@@ -1,24 +1,32 @@
 {
     "stateTitle": {
-            "in-progress": "En cours",
-            "completed": "Terminé",
-            "paused": "En pause",
-            "soon": "Bientôt"
+        "in-progress": "En cours",
+        "completed": "Terminé",
+        "paused": "En pause",
+        "soon": "Bientôt"
     },
     "linkedExperienceTitle": {
-            "personal": "Personnel",
-            "academic": "Académique"
+        "personal": "Personnel",
+        "but-info": "BUT Informatique"
     },
-    "projects" : [  
+    "projects": [
         {
-            "repository": "/portfolio",
+            "id": "portfolio",
             "title": "Portfolio",
             "github": "https://github.com/lucasdjt/Portfolio",
             "date": "27/03/2025",
             "description": "Le dépôt Git de cette page web actuelle où vous pouvez explorer le code source et suivre l'évolution du projet.",
             "state": "in-progress",
             "linkedExperience": "personal",
-            "techStack": ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Node.js", "GitHub"],
+            "techStack": [
+                { "anchor": "html", "title": "HTML" },
+                { "anchor": "css", "title": "CSS" },
+                { "anchor": "javascript", "title": "JavaScript" },
+                { "anchor": "typescript", "title": "TypeScript" },
+                { "anchor": "react", "title": "React" },
+                { "anchor": "nodejs", "title": "Node.js" },
+                { "anchor": "git", "title": "GitHub" }
+            ],
             "oldVersion": {
                 "title": "Version 1.0 - Ancien Portfolio",
                 "description": "L'ancienne version du portfolio",
@@ -26,70 +34,106 @@
             }
         },
         {
-            "repository": "/hagario",
+            "id": "hagario",
             "title": "Hagar.io",
             "github": "https://github.com/lucasdjt/Hagario",
             "date": "14/03/2025-25/03/2025",
             "description": "Jeu développé en JavaScript, inspiré du célèbre jeu Agar.io, offrant une expérience multijoueur immersive avec des fonctionnalités similaires au jeu original.",
             "state": "completed",
-            "linkedExperience": "academic",
-            "techStack": ["HTML", "CSS", "JavaScript", "Node.js", "Socket.io", "GitLab", "Approche Kanban/Scrum"]
+            "linkedExperience": "but-info",
+            "techStack": [
+                { "anchor": "html", "title": "HTML" },
+                { "anchor": "css", "title": "CSS" },
+                { "anchor": "javascript", "title": "JavaScript" },
+                { "anchor": "nodejs", "title": "Node.js" },
+                { "anchor": "socketio", "title": "Socket.io" },
+                { "anchor": "git", "title": "GitLab" },
+                { "anchor": "agile", "title": "Kanban" },
+                { "anchor": "agile", "title": "Scrum" }
+            ]
         },
         {
-            "repository": "/dwidder",
+            "id": "dwidder",
             "title": "Dwidder - Mon Réseau Social",
             "github": "https://github.com/lucasdjt/Dwidder",
             "date": "10/02/2025-20/03/2025",
-            "description": "J’ai développé Dwidder, un réseau social inspiré de Twitter et Facebook, utilisant JakartaEE pour le back-end et les JSP pour l'affichage. Ce réseau social est connecté à ma base de données PostgreSQL grâce a JDBC. Il permet aux utilisateurs de publier des posts, interagir via des réactions, créer des groupes privés et envoyer des messages. Une base admin et une API REST est intégrée pour faciliter l’interaction avec les données. Vous pouvez voir mon projet directement sur GitHub.",
+            "description": "J’ai développé Dwidder, un réseau social inspiré de Twitter et Facebook, utilisant JakartaEE pour le back-end et les JSP pour l'affichage. Ce réseau social est connecté à ma base de données PostgreSQL grâce à JDBC. Il permet aux utilisateurs de publier des posts, interagir via des réactions, créer des groupes privés et envoyer des messages. Une base admin et une REST API est intégrée pour faciliter l’interaction avec les données. Vous pouvez voir mon projet directement sur GitHub.",
             "state": "completed",
-            "linkedExperience": "academic",
-            "techStack": ["HTML", "CSS", "Java", "PostgreSQL", "JavaEE", "JSP", "JDBC", "API REST", "Bootstrap", "GitLab"]
+            "linkedExperience": "but-info",
+            "techStack": [
+                { "anchor": "html", "title": "HTML" },
+                { "anchor": "css", "title": "CSS" },
+                { "anchor": "java", "title": "Java" },
+                { "anchor": "postgresql", "title": "PostgreSQL" },
+                { "anchor": "java-web", "title": "JavaEE" },
+                { "anchor": "java-web", "title": "JSP" },
+                { "anchor": "java-web", "title": "JDBC" },
+                { "anchor": "rest", "title": "REST API" },
+                { "anchor": "bootstrap", "title": "Bootstrap" },
+                { "anchor": "git", "title": "GitLab" }
+            ]
         },
         {
-            "repository": "/chess",
+            "id": "chess",
             "title": "Chess",
             "github": "https://github.com/lucasdjt/Chess",
             "date": "25/01/2024-17/02/2025",
             "description": "Jouez aux échecs avec cette application disponible sur PC. Utilise la méthode MVC, Java et Swing. Respecte les règles officielles du jeu d'échecs et permet des parties à deux joueurs. Projet entièrement réalisé en solo.",
             "state": "paused",
-            "linkedExperience": "academic",
-            "techStack": ["Java", "Swing", "Architecture MVC", "Maven", "GitHub"],
+            "linkedExperience": "but-info",
+            "techStack": [
+                { "anchor": "java", "title": "Java" },
+                { "anchor": "java-apps", "title": "Swing" },
+                { "anchor": "mvc-model", "title": "Architecture MVC" },
+                { "anchor": "maven", "title": "Maven" },
+                { "anchor": "git", "title": "GitHub" }
+            ],
             "oldVersion": {
                 "title": "Version 1.0 - Echec sans mode graphique",
-                "description": "L'ancienne version du jeu d'échec avec que l'interface non graphique",
+                "description": "L'ancienne version du jeu d'échec avec seulement une interface non graphique.",
                 "date": "10/12/2024-24/01/2025"
             }
         },
         {
-            "repository": "/classification",
+            "id": "classification",
             "title": "Application de classification",
             "github": "https://github.com/lucasdjt/Classification",
             "date": "25/09/2024-05/12/2024",
             "description": "Ce projet propose un outil permettant de charger et d'afficher visuellement un ensemble de données variées. Il offre également des fonctionnalités de classification, permettant de comparer et de catégoriser de nouvelles données en fonction des ensembles de données précédemment chargés. Grâce à cet outil, les utilisateurs peuvent analyser efficacement les informations qu'ils veulent. Utilisation du modèle MVC, de JavaFx, de la mise en place de la qualité de développement, d'analyses et du travail de groupe. Projet réalisé dans une équipe de 4 personnes.",
             "state": "completed",
-            "linkedExperience": "academic",
-            "techStack": ["Java", "JavaFx", "Maven", "GitLab"]
+            "linkedExperience": "but-info",
+            "techStack": [
+                { "anchor": "java", "title": "Java" },
+                { "anchor": "java-apps", "title": "JavaFx" },
+                { "anchor": "maven", "title": "Maven" },
+                { "anchor": "git", "title": "GitLab" }
+            ]
         },
         {
-            "repository": "/agile",
+            "id": "miniagile",
             "title": "Jeu en méthodologie agile",
             "github": "https://github.com/lucasdjt/MiniAgile",
             "date": "02/09/2024-05/09/2024",
             "description": "Projet pour introduire l'agilité avec des sprints de 2h durant 1 semaine, en utilisant Java et la méthode SCRUM (Agile), réalisé dans une équipe de 6 personnes.",
             "state": "completed",
-            "linkedExperience": "academic",
-            "techStack": ["Java", "Scrum", "GitLab"]
+            "linkedExperience": "but-info",
+            "techStack": [
+                { "anchor": "java", "title": "Java" },
+                { "anchor": "agile", "title": "Scrum" },
+                { "anchor": "git", "title": "GitLab" }
+            ]
         },
         {
-            "repository": "/edutainment",
+            "id": "edutainment",
             "title": "Jeu ludoéducatif",
             "github": "https://github.com/lucasdjt/EduFight",
             "date": "05/11/2023-21/12/2023",
             "description": "Le jeu se nomme EduFight. L'objectif est de battre un adversaire (robot ou joueur) à l'aide de vos connaissances, répondre à des questions et infliger des dégâts pour vos bonnes réponses. Projet réalisé en binôme.",
             "state": "completed",
-            "linkedExperience": "academic",
-            "techStack": ["Java"]
+            "linkedExperience": "but-info",
+            "techStack": [
+                { "anchor": "java", "title": "Java" }
+            ]
         }
     ]
 }
-
