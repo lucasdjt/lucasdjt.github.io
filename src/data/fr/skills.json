@@ -1,0 +1,222 @@
+{
+    "skills": [
+        {
+            "id": "java",
+            "icon": null,
+            "title": "Java",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["dwidder", "chess", "classification", "miniagile", "edutainment"]
+        },
+        {
+            "id": "java-apps",
+            "icon": null,
+            "title": "JavaFx, Swing, Maven",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["chess", "classification"]
+        },
+        {
+            "id": "java-web",
+            "icon": null,
+            "title": "JDBC, JavaEE, JSP",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["dwidder"]
+        },
+        {
+            "id": "dev-web",
+            "icon": null,
+            "title": "HTML, CSS, PHP",
+            "description": "Techno appris en STI2D",
+            "linkedExperience": "sti2d",
+            "linkedProjects": ["portfolio", "hagario"]
+        },
+        {
+            "id": "bootstrap",
+            "icon": null,
+            "title": "Bootstrap",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["dwidder"]
+        },
+        {
+            "id": "javascript",
+            "icon": null,
+            "title": "JavaScript, TypeScript",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["portfolio", "hagario"]
+        },
+        {
+            "id": "react",
+            "icon": null,
+            "title": "React",
+            "description": "Techno appris en autodidacte",
+            "linkedExperience": "personal",
+            "linkedProjects": ["portfolio"]
+        },
+        {
+            "id": "angular",
+            "icon": null,
+            "title": "Angular",
+            "description": "Techno appris en autodidacte",
+            "linkedExperience": "personal",
+            "linkedProjects": []
+        },
+        {
+            "id": "nodejs",
+            "icon": null,
+            "title": "Node.js",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["portfolio", "hagario"]
+        },
+        {
+            "id": "socketio",
+            "icon": null,
+            "title": "Socket.io",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["hagario"]
+        },
+        {
+            "id": "api-rest",
+            "icon": null,
+            "title": "API REST",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["dwidder"]
+        },
+        {
+            "id": "postgresql",
+            "icon": null,
+            "title": "PostgreSQL",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["dwidder"]
+        },
+        {
+            "id": "c",
+            "icon": null,
+            "title": "C",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": []
+        },
+        {
+            "id": "arduino",
+            "icon": null,
+            "title": "Arduino",
+            "description": "Techno appris en STI2D",
+            "linkedExperience": "sti2d",
+            "linkedProjects": []
+        },
+        {
+            "id": "python",
+            "icon": null,
+            "title": "Python",
+            "description": "Techno appris en autodidacte",
+            "linkedExperience": "personal",
+            "linkedProjects": []
+        },
+        {
+            "id": "git",
+            "icon": null,
+            "title": "GitHub, GitLab",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["portfolio", "hagario", "dwidder", "chess", "classification", "miniagile"]
+        },
+        {
+            "id": "docker",
+            "icon": null,
+            "title": "Docker",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": []
+        },
+        {
+            "id": "linux",
+            "icon": null,
+            "title": "Linux",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": []
+        },
+        {
+            "id": "windows",
+            "icon": null,
+            "title": "Windows",
+            "description": "Techno appris en autodidacte",
+            "linkedExperience": "personal",
+            "linkedProjects": []
+        },
+        {
+            "id": "outils-production",
+            "icon": null,
+            "title": "Suite Office, Google Drive, Markdown, Photoshop",
+            "description": "Techno appris en autodidacte",
+            "linkedExperience": "personal",
+            "linkedProjects": []
+        },
+        {
+            "id": "ide",
+            "icon": null,
+            "title": "Visual Studio Code, IntelliJ IDEA",
+            "description": "Techno appris en autodidacte",
+            "linkedExperience": "personal",
+            "linkedProjects": []
+        },
+        {
+            "id": "mobile",
+            "icon": null,
+            "title": "AndroidStudio",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": []
+        },
+        {
+            "id": "agile",
+            "icon": null,
+            "title": "Méthodologie Agile",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["hagario", "miniagile"]
+        },
+        {
+            "id": "mvc-model",
+            "icon": null,
+            "title": "Architecture MVC",
+            "description": "Techno appris en BUT Informatique",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["chess", "classification"]
+        }
+    ],
+    "knowledges": [
+        {
+            "title": "Créatif",
+            "description": "Ma créativité est l'un de mes atouts majeurs dans le développement. J'aime trouver de nouvelles idées pour concevoir des projets innovants."
+        },
+        {
+            "title": "Logique",
+            "description": "J'aborde les problèmes de manière logique, ce qui constitue une force en algorithmique et en résolution de problèmes complexes."
+        },
+        {
+            "title": "Autonome",
+            "description": "Je suis également capable de travailler de manière autonome, en recherchant par moi-même les informations nécessaires pour avancer efficacement."
+        },
+        {
+            "title": "Curieux",
+            "description": "Je m'informe régulièrement et me tiens à jour des avancées dans le domaine de l'informatique pour ne pas être obsolète."
+        },
+        {
+            "title": "Gestion",
+            "description": "Je sais travailler en équipe, coopérer, communiquer efficacement et écouter attentivement. J'ai également été introduit à l'agilité, renforçant ainsi mes compétences dans la gestion d'équipe."
+        },
+        {
+            "title": "Langues",
+            "description": "Français : Langue maternelle, Anglais : Niveau B2, Espagnol : Niveau B1"
+        }
+    ]
+}

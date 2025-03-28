@@ -1,5 +1,10 @@
 # Préparation de la nouvelle branche du Portfolio
 
+## Etapes
+- ajout des icônes pour chaque skill
+- ajout des descriptions pour chaque skill
+- Commencer à créer le site
+
 ## Préparations
 
 - Trouver un hébergement web (ou rester sur github.io) pouvant héberger un site dynamique utilisant Node.js

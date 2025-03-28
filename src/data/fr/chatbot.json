@@ -2,16 +2,16 @@
     "data": [
         {
             "question": "Quelle est ton nom?",
-            "response": "Mon nom est LucasBOT et je suis là pour vous assister !"
+            "response": "Mon nom est LucasBOT et je suis là pour vous assister et répondre à vos besoins numériques."
         },
         {
             "question": "Que fais-tu?",
-            "response": "Là actuellement, je ne peux pas faire grand chose, mais c'est peut-être pour bientôt, qui sait?"
+            "response": "Je suis ici pour répondre à vos questions, organiser vos données et, bientôt, faire encore plus pour vous."
         },
         {
             "question": "Comment puis-je te contacter?",
-            "response": "Vous pouvez me contacter en utilisant le formulaire de contact sur la page de contact de mon portfolio."
+            "response": "Vous pouvez me contacter via le formulaire sur la page de contact de mon portfolio ou par email si nécessaire."
         }
     ],
-    "globalResponse": "Je suis désolé, je n'ai pas compris votre question."
+    "globalResponse": "Je suis désolé, je n'ai pas compris votre question. Pourriez-vous la reformuler ?"
 }

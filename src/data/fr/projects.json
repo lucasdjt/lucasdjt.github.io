@@ -19,10 +19,8 @@
             "state": "in-progress",
             "linkedExperience": "personal",
             "techStack": [
-                { "anchor": "html", "title": "HTML" },
-                { "anchor": "css", "title": "CSS" },
-                { "anchor": "javascript", "title": "JavaScript" },
-                { "anchor": "typescript", "title": "TypeScript" },
+                { "anchor": "dev-web", "title": "HTML, CSS" },
+                { "anchor": "javascript", "title": "JavaScript, Typescript"},
                 { "anchor": "react", "title": "React" },
                 { "anchor": "nodejs", "title": "Node.js" },
                 { "anchor": "git", "title": "GitHub" }
@@ -30,7 +28,7 @@
             "oldVersion": {
                 "title": "Version 1.0 - Ancien Portfolio",
                 "description": "L'ancienne version du portfolio",
-                "date": "17/12/2025-24/03/2025"
+                "date": "17/12/2024-24/03/2025"
             }
         },
         {
@@ -42,14 +40,12 @@
             "state": "completed",
             "linkedExperience": "but-info",
             "techStack": [
-                { "anchor": "html", "title": "HTML" },
-                { "anchor": "css", "title": "CSS" },
+                { "anchor": "dev-web", "title": "HTML, CSS" },
                 { "anchor": "javascript", "title": "JavaScript" },
                 { "anchor": "nodejs", "title": "Node.js" },
                 { "anchor": "socketio", "title": "Socket.io" },
                 { "anchor": "git", "title": "GitLab" },
-                { "anchor": "agile", "title": "Kanban" },
-                { "anchor": "agile", "title": "Scrum" }
+                { "anchor": "agile", "title": "Approche Kanban/Scrum" }
             ]
         },
         {
@@ -61,14 +57,10 @@
             "state": "completed",
             "linkedExperience": "but-info",
             "techStack": [
-                { "anchor": "html", "title": "HTML" },
-                { "anchor": "css", "title": "CSS" },
                 { "anchor": "java", "title": "Java" },
                 { "anchor": "postgresql", "title": "PostgreSQL" },
-                { "anchor": "java-web", "title": "JavaEE" },
-                { "anchor": "java-web", "title": "JSP" },
-                { "anchor": "java-web", "title": "JDBC" },
-                { "anchor": "rest", "title": "REST API" },
+                { "anchor": "java-web", "title": "JavaEE, JSP, JDBC" },
+                { "anchor": "api-rest", "title": "REST API" },
                 { "anchor": "bootstrap", "title": "Bootstrap" },
                 { "anchor": "git", "title": "GitLab" }
             ]
@@ -83,9 +75,8 @@
             "linkedExperience": "but-info",
             "techStack": [
                 { "anchor": "java", "title": "Java" },
-                { "anchor": "java-apps", "title": "Swing" },
+                { "anchor": "java-apps", "title": "Swing, Maven" },
                 { "anchor": "mvc-model", "title": "Architecture MVC" },
-                { "anchor": "maven", "title": "Maven" },
                 { "anchor": "git", "title": "GitHub" }
             ],
             "oldVersion": {
@@ -104,8 +95,7 @@
             "linkedExperience": "but-info",
             "techStack": [
                 { "anchor": "java", "title": "Java" },
-                { "anchor": "java-apps", "title": "JavaFx" },
-                { "anchor": "maven", "title": "Maven" },
+                { "anchor": "java-apps", "title": "JavaFx, Maven"},
                 { "anchor": "git", "title": "GitLab" }
             ]
         },

@@ -13,7 +13,7 @@
         "birth": "10/05/2005",
         "driverLicense": "B",
         "location": "Villeneuve-d'Ascq, France"
-    },   
+    },
     "links": [
         {
             "cv": "/assets/cv/CV_Alternance_Lucas_DEJESUSTEIXEIRA.pdf",
@@ -31,7 +31,7 @@
             "description": "Depuis l'enfance, je pratique les échecs qui sont devenus une réelle passion pour moi. C'est un sport qui nécessite beaucoup de réflexion, de stratégie, de concentration et d'anticipation."
         },
         {
-            "image": "/assets/img/chess/djing.jpg",
+            "image": "/assets/img/hobbies/djing.jpg",
             "title": "DJing",
             "description": "Passion née ces dernières années, je me suis investi dans le DJing pour partager mon univers musical et faire vibrer les autres. Grâce à des outils comme Rekordbox, SeratoDJ et FL Studio, je prépare et réalise mes sets et mes remix avec soin, avec une base solide en autodidacte."
         },
