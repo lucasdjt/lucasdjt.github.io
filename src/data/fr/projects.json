@@ -120,18 +120,6 @@
                 { "anchor": "agile", "title": "Scrum" },
                 { "anchor": "git", "title": "GitLab" }
             ]
-        },
-        {
-            "id": "edutainment",
-            "title": "Jeu ludoéducatif",
-            "github": "https://github.com/lucasdjt/EduFight",
-            "date": "05/11/2023-21/12/2023",
-            "description": "Le jeu se nomme EduFight. L'objectif est de battre un adversaire (robot ou joueur) à l'aide de vos connaissances, répondre à des questions et infliger des dégâts pour vos bonnes réponses. Projet réalisé en binôme.",
-            "state": "completed",
-            "linkedExperience": "but-info",
-            "techStack": [
-                { "anchor": "java", "title": "Java" }
-            ]
         }
     ]
 }

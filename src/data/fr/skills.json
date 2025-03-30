@@ -5,7 +5,7 @@
             "title": "Java",
             "description": "A propos de java, du POO, et de ce que j'y ai appris",
             "linkedExperience": "but-info",
-            "linkedProjects": ["dwidder", "chess", "classification", "miniagile", "edutainment"],
+            "linkedProjects": ["dwidder", "chess", "classification", "miniagile"],
             "categories": "dev"
         },
         {
