@@ -5,12 +5,11 @@
             "logo": null,
             "title": "Stage - Mise en conformité du parc et réseau informatique",
             "subtitle": null,
-            "description": "Bientôt...",
+            "description": "Bientôt : Réseaux, Systèmes, Cloud",
             "linkedSkills": [
-                { "anchor": null, "title": "Sécurité" },
                 { "anchor": "windows", "title": "Windows" },
                 { "anchor": "linux", "title": "Linux" },
-                { "anchor": null, "title": "Cloud" }
+                { "anchor": "outils", "title": "Office 365" }
             ],
             "projectsLink": null,
             "link": null,
@@ -27,6 +26,9 @@
                 { "anchor": "javascript", "title": "JavaScript" },
                 { "anchor": "c", "title": "C" },
                 { "anchor": "postgresql", "title": "PostgreSQL" },
+                { "anchor": "git", "title": "GitLab" },
+                { "anchor": "conteneurs", "title": "Docker, Podman" },
+                { "anchor": "linux", "title": "Linux" },
                 { "anchor": "agile", "title": "Méthodologie Agile" }
             ],
             "projectsLink": [
@@ -46,12 +48,9 @@
             "subtitle": "Lycée Blaise Pascal, Longuenesse",
             "description": "Ce cursus m'a permis d'explorer les bases de l'informatique et des systèmes numériques, notamment en développant avec Arduino (C++), en apprenant les fondamentaux de l'algorithmique, le fonctionnement des systèmes informatiques et électroniques, l'IoT et le réseau. Au-delà des compétences techniques, le programme favorise le travail en équipe et la communication. Il permet aussi de se préparer à l'avenir.",
             "linkedSkills": [
-                { "anchor": "arduino", "title": "Arduino (C++)" },
-                { "anchor": null, "title": "IoT" },
-                { "anchor": "mobile", "title": "Android Studio" },
                 { "anchor": "dev-web", "title": "HTML, CSS, PHP" },
-                { "anchor": "linux", "title": "Réseaux" },
-                { "anchor": null, "title": "Écologie" }
+                { "anchor": "arduino", "title": "Arduino (C++)" },
+                { "anchor": "mobile", "title": "Android Studio" }
             ],
             "projectsLink": null,
             "link": "https://www.bpascal.fr/",

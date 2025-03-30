@@ -2,195 +2,203 @@
     "skills": [
         {
             "id": "java",
-            "icon": null,
             "title": "Java",
-            "description": "Techno appris en BUT Informatique",
+            "description": "A propos de java, du POO, et de ce que j'y ai appris",
             "linkedExperience": "but-info",
-            "linkedProjects": ["dwidder", "chess", "classification", "miniagile", "edutainment"]
+            "linkedProjects": ["dwidder", "chess", "classification", "miniagile", "edutainment"],
+            "categories": "dev"
         },
         {
             "id": "java-apps",
-            "icon": null,
             "title": "JavaFx, Swing, Maven",
-            "description": "Techno appris en BUT Informatique",
+            "description": "A propos de JavaFx, de Swing ce que j'y ai appris + de Maven.",
             "linkedExperience": "but-info",
-            "linkedProjects": ["chess", "classification"]
+            "linkedProjects": ["chess", "classification"],
+            "categories": "dev"
         },
         {
             "id": "java-web",
-            "icon": null,
-            "title": "JDBC, JavaEE, JSP",
-            "description": "Techno appris en BUT Informatique",
+            "title": "JDBC, JavaEE, JSP, Tomcat",
+            "description": "Apprendre la connexion entre JDBC et PostgreSQL, l'utilisation de JakartaEE pour le rendu en sites webs avec des JSP.",
             "linkedExperience": "but-info",
-            "linkedProjects": ["dwidder"]
+            "linkedProjects": ["dwidder"],
+            "categories": "dev"
         },
         {
             "id": "dev-web",
-            "icon": null,
             "title": "HTML, CSS, PHP",
-            "description": "Techno appris en STI2D",
+            "description": "Montrer les connaissances de bases du web avec HTML, CSS et PHP.",
             "linkedExperience": "sti2d",
-            "linkedProjects": ["portfolio", "hagario"]
+            "linkedProjects": ["portfolio", "hagario"],
+            "categories": "dev"
         },
         {
-            "id": "bootstrap",
-            "icon": null,
-            "title": "Bootstrap",
-            "description": "Techno appris en BUT Informatique",
+            "id": "css",
+            "title": "Bootstrap, TailwindCSS",
+            "description": "Montrer mes connaissances sur les frameworks css",
             "linkedExperience": "but-info",
-            "linkedProjects": ["dwidder"]
+            "linkedProjects": ["dwidder"],
+            "categories": "dev"
         },
         {
             "id": "javascript",
-            "icon": null,
             "title": "JavaScript, TypeScript",
-            "description": "Techno appris en BUT Informatique",
+            "description": "Montrer mes connaissances sur JS/TS",
             "linkedExperience": "but-info",
-            "linkedProjects": ["portfolio", "hagario"]
+            "linkedProjects": ["portfolio", "hagario"],
+            "categories": "dev"
         },
         {
             "id": "react",
-            "icon": null,
             "title": "React",
-            "description": "Techno appris en autodidacte",
+            "description": "Montrer mes connaissances sur react, techno appris en autodidacte",
             "linkedExperience": "personal",
-            "linkedProjects": ["portfolio"]
+            "linkedProjects": ["portfolio"],
+            "categories": "dev"
         },
         {
             "id": "angular",
-            "icon": null,
             "title": "Angular",
-            "description": "Techno appris en autodidacte",
+            "description": "Montrer mes connaissances actuels sur angular, techno en train d'apprendre en autodidacte",
             "linkedExperience": "personal",
-            "linkedProjects": []
+            "linkedProjects": [],
+            "categories": "en-cours"
         },
         {
             "id": "nodejs",
-            "icon": null,
-            "title": "Node.js",
-            "description": "Techno appris en BUT Informatique",
+            "title": "Node.js, NPM",
+            "description": "Montrer comment j'ai utiliser node.js et NPM qui lui est associé",
             "linkedExperience": "but-info",
-            "linkedProjects": ["portfolio", "hagario"]
+            "linkedProjects": ["portfolio", "hagario"],
+            "categories": "dev"
         },
         {
             "id": "socketio",
-            "icon": null,
             "title": "Socket.io",
-            "description": "Techno appris en BUT Informatique",
+            "description": "Techno appris lors d'un projet où on avait besoin d'une gestion client/serveur",
             "linkedExperience": "but-info",
-            "linkedProjects": ["hagario"]
+            "linkedProjects": ["hagario"],
+            "categories": "dev"
         },
         {
-            "id": "api-rest",
-            "icon": null,
+            "id": "api",
             "title": "API REST",
-            "description": "Techno appris en BUT Informatique",
+            "description": "Montrer les différents API que j'ai pu utilisé",
             "linkedExperience": "but-info",
-            "linkedProjects": ["dwidder"]
+            "linkedProjects": ["dwidder"],
+            "categories": "dev"
         },
         {
             "id": "postgresql",
-            "icon": null,
             "title": "PostgreSQL",
-            "description": "Techno appris en BUT Informatique",
+            "description": "Montrer les connaissances en BDD relationnelles",
             "linkedExperience": "but-info",
-            "linkedProjects": ["dwidder"]
+            "linkedProjects": ["dwidder"],
+            "categories": "dev"
         },
         {
             "id": "c",
-            "icon": null,
             "title": "C",
-            "description": "Techno appris en BUT Informatique",
+            "description": "Montrer les connaissances en programmation C",
             "linkedExperience": "but-info",
-            "linkedProjects": []
+            "linkedProjects": [],
+            "categories": "dev"
         },
         {
             "id": "arduino",
-            "icon": null,
             "title": "Arduino",
-            "description": "Techno appris en STI2D",
+            "description": "Montrer les domaines de connaissance en arduino",
             "linkedExperience": "sti2d",
-            "linkedProjects": []
+            "linkedProjects": [],
+            "categories": "dev"
         },
         {
             "id": "python",
-            "icon": null,
             "title": "Python",
-            "description": "Techno appris en autodidacte",
+            "description": "Montrer mes connaissances actuels sur python, techno en train d'apprendre en autodidacte",
             "linkedExperience": "personal",
-            "linkedProjects": []
+            "linkedProjects": [],
+            "categories": "en-cours"
         },
         {
             "id": "git",
-            "icon": null,
             "title": "GitHub, GitLab",
-            "description": "Techno appris en BUT Informatique",
+            "description": "Montrer les utilisations de GIT",
             "linkedExperience": "but-info",
-            "linkedProjects": ["portfolio", "hagario", "dwidder", "chess", "classification", "miniagile"]
+            "linkedProjects": ["portfolio", "hagario", "dwidder", "chess", "classification", "miniagile"],
+            "categories": "env"
         },
         {
-            "id": "docker",
-            "icon": null,
-            "title": "Docker",
-            "description": "Techno appris en BUT Informatique",
+            "id": "conteneurs",
+            "title": "Docker, Podman",
+            "description": "Montrer les compétences sur Docker et Podman",
             "linkedExperience": "but-info",
-            "linkedProjects": []
+            "linkedProjects": [],
+            "categories": "env"
         },
         {
             "id": "linux",
-            "icon": null,
             "title": "Linux",
-            "description": "Techno appris en BUT Informatique",
+            "description": "Montrer les compétences sur Linux, les systèmes et le réseau, script shells",
             "linkedExperience": "but-info",
-            "linkedProjects": []
+            "linkedProjects": [],
+            "categories": "env"
         },
         {
             "id": "windows",
-            "icon": null,
             "title": "Windows",
-            "description": "Techno appris en autodidacte",
+            "description": "Montrer les compétences sur Windows et les scripts batch",
             "linkedExperience": "personal",
-            "linkedProjects": []
+            "linkedProjects": [],
+            "categories": "env"
         },
         {
             "id": "outils-production",
-            "icon": null,
-            "title": "Suite Office, Google Drive, Markdown, Photoshop",
-            "description": "Techno appris en autodidacte",
+            "title": "Suite Office, Google Drive, Markdown, Photoshop, Figma",
+            "description": "Montrer les outils que je maîtrise",
             "linkedExperience": "personal",
-            "linkedProjects": []
+            "linkedProjects": [],
+            "categories": "env"
         },
         {
             "id": "ide",
-            "icon": null,
             "title": "Visual Studio Code, IntelliJ IDEA",
-            "description": "Techno appris en autodidacte",
+            "description": "Montrer les ide que j'utilise actuellement",
             "linkedExperience": "personal",
-            "linkedProjects": []
+            "linkedProjects": [],
+            "categories": "env"
         },
         {
             "id": "mobile",
-            "icon": null,
-            "title": "AndroidStudio",
-            "description": "Techno appris en BUT Informatique",
+            "title": "Android Studio",
+            "description": "Montrer les compétences que j'ai eu dans le développement mobile",
             "linkedExperience": "but-info",
-            "linkedProjects": []
+            "linkedProjects": [],
+            "categories": "dev"
         },
         {
             "id": "agile",
-            "icon": null,
             "title": "Méthodologie Agile",
-            "description": "Techno appris en BUT Informatique",
+            "description": "Montrer les compétences que j'ai niv gestion de projet",
             "linkedExperience": "but-info",
-            "linkedProjects": ["hagario", "miniagile"]
+            "linkedProjects": ["hagario", "miniagile"],
+            "categories": "env"
         },
         {
             "id": "mvc-model",
-            "icon": null,
             "title": "Architecture MVC",
-            "description": "Techno appris en BUT Informatique",
+            "description": "Montrer les compétences d'architecture MVC",
             "linkedExperience": "but-info",
-            "linkedProjects": ["chess", "classification"]
+            "linkedProjects": ["chess", "classification"],
+            "categories": "env"
+        },
+        {
+            "id": "tdd",
+            "title": "Test Driven Development",
+            "description": "Montrer les compétences dans l'utilisation du modèle TDD pour le développement logiciel",
+            "linkedExperience": "but-info",
+            "linkedProjects": ["chess"],
+            "categories": "env"
         }
     ],
     "knowledges": [

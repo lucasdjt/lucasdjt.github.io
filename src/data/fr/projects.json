@@ -20,10 +20,12 @@
             "linkedExperience": "personal",
             "techStack": [
                 { "anchor": "dev-web", "title": "HTML, CSS" },
+                { "anchor": null, "title": "TailWindCSS" },
                 { "anchor": "javascript", "title": "JavaScript, Typescript"},
                 { "anchor": "react", "title": "React" },
                 { "anchor": "nodejs", "title": "Node.js" },
-                { "anchor": "git", "title": "GitHub" }
+                { "anchor": "git", "title": "GitHub" },
+                { "anchor": "outils-production", "title": "Figma" }
             ],
             "oldVersion": {
                 "title": "Version 1.0 - Ancien Portfolio",
@@ -45,7 +47,9 @@
                 { "anchor": "nodejs", "title": "Node.js" },
                 { "anchor": "socketio", "title": "Socket.io" },
                 { "anchor": "git", "title": "GitLab" },
-                { "anchor": "agile", "title": "Approche Kanban/Scrum" }
+                { "anchor": "outils-production", "title": "Figma" },
+                { "anchor": "agile", "title": "Approche Kanban/Scrum" },
+                { "anchor": "tdd", "title": "Méthode TDD" }
             ]
         },
         {
@@ -58,11 +62,12 @@
             "linkedExperience": "but-info",
             "techStack": [
                 { "anchor": "java", "title": "Java" },
+                { "anchor": "java-web", "title": "JavaEE, JSP, JDBC, Tomcat" },
+                { "anchor": "css", "title": "Bootstrap" },
+                { "anchor": "api", "title": "REST API" },
                 { "anchor": "postgresql", "title": "PostgreSQL" },
-                { "anchor": "java-web", "title": "JavaEE, JSP, JDBC" },
-                { "anchor": "api-rest", "title": "REST API" },
-                { "anchor": "bootstrap", "title": "Bootstrap" },
-                { "anchor": "git", "title": "GitLab" }
+                { "anchor": "git", "title": "GitLab" },
+                { "anchor": "mvc-model", "title": "Architecture MVC Web" }
             ]
         },
         {
@@ -76,8 +81,9 @@
             "techStack": [
                 { "anchor": "java", "title": "Java" },
                 { "anchor": "java-apps", "title": "Swing, Maven" },
+                { "anchor": "git", "title": "GitHub" },
                 { "anchor": "mvc-model", "title": "Architecture MVC" },
-                { "anchor": "git", "title": "GitHub" }
+                { "anchor": "tdd", "title": "Méthode TDD"}
             ],
             "oldVersion": {
                 "title": "Version 1.0 - Echec sans mode graphique",
@@ -96,7 +102,9 @@
             "techStack": [
                 { "anchor": "java", "title": "Java" },
                 { "anchor": "java-apps", "title": "JavaFx, Maven"},
-                { "anchor": "git", "title": "GitLab" }
+                { "anchor": "git", "title": "GitLab" },
+                { "anchor": "outils-production", "title": "Figma" },
+                { "anchor": "mvc-model", "title": "Architecture MVC" }
             ]
         },
         {
