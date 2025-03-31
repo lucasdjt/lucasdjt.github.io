@@ -20,7 +20,7 @@
             "linkedExperience": "personal",
             "techStack": [
                 { "anchor": "dev-web", "title": "HTML, CSS" },
-                { "anchor": null, "title": "TailWindCSS" },
+                { "anchor": "css", "title": "TailWindCSS" },
                 { "anchor": "javascript", "title": "JavaScript, Typescript"},
                 { "anchor": "react", "title": "React" },
                 { "anchor": "nodejs", "title": "Node.js" },
@@ -62,7 +62,7 @@
             "linkedExperience": "but-info",
             "techStack": [
                 { "anchor": "java", "title": "Java" },
-                { "anchor": "java-web", "title": "JavaEE, JSP, JDBC, Tomcat" },
+                { "anchor": "javaee", "title": "JavaEE, JSP, JDBC, Tomcat" },
                 { "anchor": "css", "title": "Bootstrap" },
                 { "anchor": "api", "title": "REST API" },
                 { "anchor": "postgresql", "title": "PostgreSQL" },
@@ -80,7 +80,7 @@
             "linkedExperience": "but-info",
             "techStack": [
                 { "anchor": "java", "title": "Java" },
-                { "anchor": "java-apps", "title": "Swing, Maven" },
+                { "anchor": "javase", "title": "Swing, Maven" },
                 { "anchor": "git", "title": "GitHub" },
                 { "anchor": "mvc-model", "title": "Architecture MVC" },
                 { "anchor": "tdd", "title": "Méthode TDD"}
@@ -101,7 +101,7 @@
             "linkedExperience": "but-info",
             "techStack": [
                 { "anchor": "java", "title": "Java" },
-                { "anchor": "java-apps", "title": "JavaFx, Maven"},
+                { "anchor": "javase", "title": "JavaFx, Maven"},
                 { "anchor": "git", "title": "GitLab" },
                 { "anchor": "outils-production", "title": "Figma" },
                 { "anchor": "mvc-model", "title": "Architecture MVC" }

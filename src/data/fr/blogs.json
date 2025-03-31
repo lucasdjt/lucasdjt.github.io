@@ -25,7 +25,7 @@
             "date": "20/03/2025",
             "href": "#projet-dwidder",
             "importance": false,
-            "img": null
+            "img": "projects/dwidder/logo.png"
         },
         {
             "id": 4,
@@ -34,7 +34,7 @@
             "date": "25/03/2025",
             "href": "#projet-hagario",
             "importance": false,
-            "img": null
+            "img": "projects/hagario/logo.png"
         }
     ]
 }
