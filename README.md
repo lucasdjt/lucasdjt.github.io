@@ -2,8 +2,7 @@
 
 ## Préparations
 
-- Trouver un hébergement web (ou rester sur github.io) pouvant héberger un site dynamique utilisant Node.js
-- Préparer les informations nécessaires dans des fichiers .txt pour tous les projets, formations et toutes les compétences puis utilisation de l'API Fetch pour les récupérer, ce sera plus simple pour modifier les informations.
+- Passage de JSON à JS qui va être plus simple pour stocker les données
 
 Choix : React > JS ça va être le projet que je vais utiliser pour y montrer mes compétences.
 Style : Soit Bootstrap soit TailwindCSS 
@@ -74,3 +73,6 @@ Footer fixe, affichant les réseaux sociaux, LINKEDIN/GITHUB/Télécharger CV + 
 - Mettre des projets/applications directement téléchargeables.
 - Mettre mon parcours futur ?
 - Responsive avant tout.
+
+## Licence
+Ce projet est sous licence [Creative Commons BY-NC-ND 4.0](LICENSE.md). Cela signifie que vous ne pouvez pas l'utiliser à des fins commerciales ou le modifier.
