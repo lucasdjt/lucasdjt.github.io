@@ -5,7 +5,7 @@ const blogs = [
 		description: `Je recherche une alternance en développement pour ma 3ᵉ année (sept. 2025 - août 2026). 
         Disponible une semaine sur deux en entreprise jusqu’en mars, puis à plein temps.`,
 		date: '28/03/2025',
-		href: 'assets/CV_Alternance_Lucas_DEJESUSTEIXEIRA.pdf',
+		href: '/assets/CV_Alternance_Lucas_DEJESUSTEIXEIRA.pdf',
 		img: null,
 	},
 	{
@@ -14,7 +14,7 @@ const blogs = [
 		description: `Création d'un nouveau portfolio utilisant JavaScript, 
         TypeScript et React pour une interface moderne et dynamique.`,
 		date: '27/03/2025',
-		href: '#portfolio',
+		href: '#project-portfolio',
 		img: null,
 	},
 	{
@@ -24,8 +24,8 @@ const blogs = [
         Il intègre PostgreSQL via JDBC, propose des posts, réactions, messagerie, groupes privés, 
         ainsi qu'une API REST et une interface d'administration.`,
 		date: '20/03/2025',
-		href: '#projet-dwidder',
-		img: 'images/projects/dwidder/logo.png',
+		href: '#project-dwidder',
+		img: '/images/projects/dwidder/logo.png',
 	},
 	{
 		id: 4,
@@ -33,8 +33,8 @@ const blogs = [
 		description: `Jeu développé en JavaScript, inspiré du célèbre jeu Agar.io, 
         offrant une expérience multijoueur immersive avec des fonctionnalités similaires au jeu original.`,
 		date: '25/03/2025',
-		href: '#projet-hagario',
-		img: 'images/projects/hagario/logo.png',
+		href: '#project-hagario',
+		img: '/images/projects/hagario/logo.png',
 	},
 ];
 

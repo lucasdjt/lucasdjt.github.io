@@ -1,4 +1,4 @@
-const PATH_LOGO = 'images/projects/';
+const PATH_LOGO = '/images/projects/';
 
 const stateTitle = [
 	{ value: 'in-progress', title: 'En cours' },

@@ -16,7 +16,7 @@ const informations = {
 	driverLicense: 'B',
 	location: `Villeneuve-d'Ascq, France`,
 	links: {
-		cv: 'assets/CV_Alternance_Lucas_DEJESUSTEIXEIRA.pdf',
+		cv: '/assets/CV_Alternance_Lucas_DEJESUSTEIXEIRA.pdf',
 		github: 'https://github.com/lucasdjt',
 		linkedIn: 'https://www.linkedin.com/in/lucasdjt',
 		linkedInIcon:
@@ -26,7 +26,7 @@ const informations = {
 			'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
 		email: 'lucasdjtpro@gmail.com',
 		universityEmail: 'lucas.de-jesus-teixeira.etu@univ-lille.fr',
-		pp: 'images/pp.jpg',
+		pp: '/images/pp.jpg',
 	},
 };
 

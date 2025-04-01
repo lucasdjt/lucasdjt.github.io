@@ -1,4 +1,4 @@
-const PATH_IMG = 'images/hobbies/';
+const PATH_IMG = '/images/hobbies/';
 
 const hobbies = [
 	{
