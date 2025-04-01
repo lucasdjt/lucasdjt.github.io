@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!-- <html lang="fr" class="dark"> -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,39 @@
     <title>Portfolio - Lucas DE JESUS TEIXEIRA</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Compétences</a></li>
-            <li><a href="#">Parcours et Expériences</a></li>
-            <li><a href="#">Projets</a></li>
-            <li><a href="#">Loisirs</a></li>
-            <li><a href="#">Me Contacter</a></li>
+    <nav class="fixed w-full bg-white flex dark:bg-black rounded-b-xl">
+        <ul class="flex justify-center space-x-1 w-full overflow-hidden overflow-x-auto relative shadow-lg">
+            <li class="nav-item relative p-5 text-black dark:text-white font-semibold active">
+                <a href="#" class="px-3 py-1">
+                    Accueil
+                </a>
+                <span class="absolute bottom-0 left-0 w-full h-1 bg-blue-500 rounded-t-md"></span>
+            </li>
+            <li class="nav-item relative p-5 text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 font-semibold">
+                <a href="#" class="px-3 py-1">
+                    Compétences
+                </a>
+            </li>
+            <li class="nav-item relative p-5 text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 font-semibold">
+                <a href="#" class="px-3 py-1">
+                    Parcours et Expériences
+                </a>
+            </li>
+            <li class="nav-item relative p-5 text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 font-semibold">
+                <a href="#" class="px-3 py-1">
+                    Projets
+                </a>
+            </li>
+            <li class="nav-item relative p-5 text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 font-semibold">
+                <a href="#" class="px-3 py-1">
+                    Loisirs
+                </a>
+            </li>
+            <li class="nav-item relative p-5 text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 font-semibold">
+                <a href="#" class="px-3 py-1">
+                    Me Contacter
+                </a>
+            </li>
         </ul>
     </nav>
     <header>
@@ -272,5 +298,12 @@
         <p>Besoin d'un projet ? <a href="mailto:lucas@email.com">Contactez-moi !</a></p>
         <p>Code source de la page : <a href="https://github.com/lucasdjt/lucasdjt.github.io">Consultez-ici</a></p>
     </footer>
+    <script>
+        const toggleDarkMode = () => {
+            document.documentElement.classList.toggle("dark");
+        };
+
+        document.getElementById("dark-mode-btn").addEventListener("click", toggleDarkMode);
+    </script>
 </body>
 </html>

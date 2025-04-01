@@ -1,5 +1,27 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
-.red {
-    color:red;
-}
+/* Setup All */
+
+  * {
+    font-family: arial, sans-serif;
+  }
+
+/* Barre de Navigation : Affichage des barres grises au survol*/
+  
+  .nav-item:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    background-color: #789cfd;
+    height: 5px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    left: 0;
+    transition: .3s;
+  }
+  
+  .nav-item:not(.active):hover:before {
+    bottom: 0;
+  }
+  
