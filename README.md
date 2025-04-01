@@ -2,11 +2,8 @@
 
 ## Préparations
 
-- Passage de JSON à JS qui va être plus simple pour stocker les données
-
 Choix : React > JS ça va être le projet que je vais utiliser pour y montrer mes compétences.
 Style : Soit Bootstrap soit TailwindCSS 
-Utilisation : API FETCH
 
 ## Portfolio V3 - Page Web Dynamique, tout sur une page (Avec React)
 
