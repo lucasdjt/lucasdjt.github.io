@@ -73,3 +73,8 @@ Footer fixe, affichant les réseaux sociaux, LINKEDIN/GITHUB/Télécharger CV + 
 
 ## Licence
 Ce projet est sous licence [Creative Commons BY-NC-ND 4.0](LICENSE.md). Cela signifie que vous ne pouvez pas l'utiliser à des fins commerciales ou le modifier.
+
+## CMD
+
+npm i
+npm start

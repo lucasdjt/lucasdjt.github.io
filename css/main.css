@@ -1,27 +1,193 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Setup All */
+/* GLOBAL */
 
-  * {
-    font-family: arial, sans-serif;
-  }
+* {
+  font-family: poppins, arial, sans-serif;
+}
 
-/* Barre de Navigation : Affichage des barres grises au survol*/
-  
-  .nav-item:before {
-    content: "";
-    position: absolute;
-    bottom: -6px;
-    background-color: #789cfd;
-    height: 5px;
-    width: 100%;
-    border-radius: 8px 8px 0 0;
-    left: 0;
-    transition: .3s;
-  }
-  
-  .nav-item:not(.active):hover:before {
-    bottom: 0;
-  }
-  
+body {
+  background: linear-gradient(135deg, #e0f7fa 0%, #f3f4f6 100%);
+}
+
+.dark body {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animate-slideIn {
+  animation: slideIn 1s ease-in-out;
+}
+
+.hover\:animate-bounce:hover {
+  animation: bounce 1s;
+}
+
+/* Autres */
+
+.scroll-snap-x {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.scroll-snap-align-center {
+  scroll-snap-align: center;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* Edge */
+  scrollbar-width: none; /* Ff */
+}
+
+.carousel-container::before,
+.carousel-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  z-index: 10;
+}
+
+.carousel-container::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.carousel-container::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.dark .carousel-container::before {
+  background: linear-gradient(to right, rgba(31, 41, 55, 1), rgba(31, 41, 55, 0));
+}
+
+.dark .carousel-container::after {
+  background: linear-gradient(to left, rgba(31, 41, 55, 1), rgba(31, 41, 55, 0));
+}
+
+.section-knowledges-div {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+
+.section-knowledges-div::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  z-index: -1;
+  background: linear-gradient(45deg, #3b82f6, #9ca3af);
+  border-radius: 0.5rem;
+}
+
+.dark .section-knowledges-div::before {
+  background: linear-gradient(45deg, #60a5fa, #d1d5db);
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.flip-card-front {
+  background-color: white;
+}
+.dark .flip-card-front {
+  background-color: #374151;
+}
+
+.flip-card-back {
+  background: linear-gradient(135deg, #3b82f6, #1e40af);
+  padding: 16px;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
+  color: white;
+  top: -100%;
+  transform: rotateY(180deg);
+  padding: 10px;
+}
+
+.dark .flip-card-back {
+  background: linear-gradient(135deg, #1e3a8a, #5371d5);
+}
+
+@keyframes spin-slow {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+/* 
+.animate-spin-slow {
+	animation: spin-slow 4s linear infinite;
+} */
+
+.flip-card-front {
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.flip-card-front:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+.dark .flip-card-front {
+  background-color: #374151;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -18,7 +18,7 @@ const hobbies = [
 	},
 	{
 		id: 'video-games',
-		image: `${PATH_IMG}video-games.jpg`,
+		image: `${PATH_IMG}video-games.png`,
 		title: 'Jeux Vidéo',
 		description: `Les jeux vidéo représentent pour moi bien plus qu’un simple divertissement : 
         ils ont été une source de créativité et d'imagination à travers des jeux de construction 

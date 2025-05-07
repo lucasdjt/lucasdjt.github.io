@@ -120,7 +120,7 @@ const projects = [
         Respecte les règles officielles du jeu d'échecs et permet des parties à deux joueurs. 
         Projet entièrement réalisé en solo.`,
 		state: 'paused',
-		experiences: 'but-info',
+		experiences: 'personal',
 		screenshots: [
 			'start.png',
 			'selectionner.png',
