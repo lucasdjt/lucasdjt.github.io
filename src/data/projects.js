@@ -18,7 +18,7 @@ const projects = [
 		title: 'Portfolio',
 		github: 'https://github.com/lucasdjt/Portfolio',
 		date: '27/03/2025',
-		description: `Le dépôt Git de cette page web actuelle où vous pouvez explorer le code source et suivre l'évolution du projet.`,
+		description: `Le dépôt Git de cette page web actuelle, où vous pouvez explorer le code source et suivre l'évolution du projet.`,
 		state: 'completed',
 		experiences: 'personal',
 		screenshots: ['logo.png', 'uneautreimage.png'].map(
@@ -26,17 +26,17 @@ const projects = [
 		),
 		skills: [
 			{ anchor: 'react', title: 'React' },
-			{ anchor: 'javascript', title: 'JavaScript, Typescript' },
-			{ anchor: 'css', title: 'TailWindCSS' },
+			{ anchor: 'javascript', title: 'JavaScript, TypeScript' },
+			{ anchor: 'css', title: 'TailwindCSS' },
 			{ anchor: 'nodejs', title: 'Node.js' },
 			{ anchor: 'outils-production', title: 'Figma' },
-			{ anchor: 'git', title: 'Github' },
+			{ anchor: 'git', title: 'GitHub' },
 			{ anchor: 'dev-web', title: 'HTML, CSS' },
 		],
 		oldVersions: [
 			{
 				title: 'Version 1.0 - Ancien Portfolio',
-				description: `L'ancienne version du portfolio`,
+				description: `Ancienne version du portfolio.`,
 				date: '17/12/2024-24/03/2025',
 			},
 		],
@@ -47,8 +47,8 @@ const projects = [
 		title: 'Hagar.io',
 		github: 'https://github.com/lucasdjt/Hagario',
 		date: '14/03/2025-25/03/2025',
-		description: `Jeu développé en JavaScript, inspiré du célèbre jeu Agar.io, 
-        offrant une expérience multijoueur immersive avec des fonctionnalités similaires au jeu original.`,
+		description: `Jeu développé en JavaScript, inspiré du célèbre jeu Agar.io,
+        offrant une expérience multijoueur immersive avec des fonctionnalités similaires à l'original.`,
 		state: 'completed',
 		experiences: 'but-info',
 		screenshots: [
@@ -76,10 +76,10 @@ const projects = [
 		title: 'Dwidder - Mon Réseau Social',
 		github: 'https://github.com/lucasdjt/Dwidder',
 		date: '10/02/2025-20/03/2025',
-		description: `J’ai développé Dwidder, un réseau social inspiré de Twitter et Facebook, utilisant JakartaEE pour le back-end 
-        et les JSP pour l'affichage. Ce réseau social est connecté à ma base de données PostgreSQL grâce à JDBC. 
-        Il permet aux utilisateurs de publier des posts, interagir via des réactions, créer des groupes privés et 
-        envoyer des messages. Une base admin et une REST API est intégrée pour faciliter l’interaction avec les données. 
+		description: `J’ai développé Dwidder, un réseau social inspiré de Twitter et Facebook, utilisant JakartaEE pour le back-end
+        et les JSP pour l'affichage. Ce réseau social est connecté à une base de données PostgreSQL grâce à JDBC.
+        Il permet aux utilisateurs de publier des posts, d’interagir via des réactions, de créer des groupes privés et
+        d’envoyer des messages. Une interface d’administration et une API REST sont intégrées pour faciliter l’interaction avec les données.
         Vous pouvez voir mon projet directement sur GitHub.`,
 		state: 'completed',
 		experiences: 'but-info',
@@ -116,8 +116,8 @@ const projects = [
 		title: 'Chess',
 		github: 'https://github.com/lucasdjt/Chess',
 		date: '25/01/2024-17/02/2025',
-		description: `Jouez aux échecs avec cette application disponible sur PC. Utilise la méthode MVC, Java et Swing. 
-        Respecte les règles officielles du jeu d'échecs et permet des parties à deux joueurs. 
+		description: `Jouez aux échecs avec cette application disponible sur PC. Utilise le modèle MVC, Java et Swing.
+        Respecte les règles officielles du jeu d'échecs et permet des parties à deux joueurs.
         Projet entièrement réalisé en solo.`,
 		state: 'paused',
 		experiences: 'personal',
@@ -134,13 +134,13 @@ const projects = [
 			{ anchor: 'java', title: 'Java' },
 			{ anchor: 'javase', title: 'Swing, Maven' },
 			{ anchor: 'mvc-model', title: 'Architecture MVC' },
-			{ anchor: 'git', title: 'Github' },
+			{ anchor: 'git', title: 'GitHub' },
 			{ anchor: 'tdd', title: 'Méthode TDD' },
 		],
 		oldVersions: [
 			{
-				title: 'Version 1.0 - Echec sans mode graphique',
-				description: `L'ancienne version du jeu d'échec avec seulement une interface non graphique.`,
+				title: 'Version 1.0 - Échecs sans mode graphique',
+				description: `Ancienne version du jeu d'échecs avec seulement une interface non graphique.`,
 				date: '10/12/2024-24/01/2025',
 			},
 		],
@@ -151,12 +151,12 @@ const projects = [
 		title: 'Application de classification',
 		github: 'https://github.com/lucasdjt/Classification',
 		date: '25/09/2024-05/12/2024',
-		description: `Ce projet propose un outil permettant de charger et d'afficher visuellement un ensemble de données variées. 
-        Il offre également des fonctionnalités de classification, permettant de comparer et de catégoriser de 
-        nouvelles données en fonction des ensembles de données précédemment chargés. Grâce à cet outil, 
-        les utilisateurs peuvent analyser efficacement les informations qu'ils veulent. Utilisation du modèle MVC, 
-        de JavaFx, de la mise en place de la qualité de développement, d'analyses et du travail de groupe. 
-        Projet réalisé dans une équipe de 4 personnes.`,
+		description: `Ce projet propose un outil permettant de charger et d'afficher visuellement un ensemble de données variées.
+        Il offre également des fonctionnalités de classification, permettant de comparer et de catégoriser
+        de nouvelles données en fonction des ensembles de données précédemment chargés. Grâce à cet outil,
+        les utilisateurs peuvent analyser efficacement les informations qu'ils souhaitent. Utilisation du modèle MVC,
+        de JavaFX, de la mise en place de la qualité de développement, d'analyses et du travail de groupe.
+        Projet réalisé en équipe de 4 personnes.`,
 		state: 'completed',
 		experiences: 'but-info',
 		screenshots: [
@@ -167,7 +167,7 @@ const projects = [
 		].map(img => `${PATH_LOGO}classification/${img}`),
 		skills: [
 			{ anchor: 'java', title: 'Java' },
-			{ anchor: 'javase', title: 'JavaFx, Maven' },
+			{ anchor: 'javase', title: 'JavaFX, Maven' },
 			{ anchor: 'mvc-model', title: 'Architecture MVC' },
 			{ anchor: 'git', title: 'GitLab' },
 			{ anchor: 'outils-production', title: 'Figma' },
@@ -180,8 +180,8 @@ const projects = [
 		title: 'Jeu en méthodologie agile',
 		github: 'https://github.com/lucasdjt/MiniAgile',
 		date: '02/09/2024-05/09/2024',
-		description: `Projet pour introduire l'agilité avec des sprints de 2h durant 1 semaine, en utilisant Java et la méthode SCRUM 
-        (Agile), réalisé dans une équipe de 6 personnes.`,
+		description: `Projet pour introduire l'agilité avec des sprints de 2h durant 1 semaine, en utilisant Java et la méthode Scrum
+        (Agile), réalisé en équipe de 6 personnes.`,
 		state: 'completed',
 		experiences: 'but-info',
 		screenshots: ['presentation.jpg', 'radiateur.jpg'].map(
