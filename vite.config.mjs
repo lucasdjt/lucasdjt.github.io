@@ -5,4 +5,5 @@ import tailwindcss from '@tailwindcss/vite';
 export default {
 	// active le plugin react
 	plugins: [tailwindcss(), react()],
+	base: '/',
 };
