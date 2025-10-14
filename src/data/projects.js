@@ -19,7 +19,7 @@ const projects = [
 		github: 'https://github.com/lucasdjt/Portfolio',
 		date: '27/03/2025',
 		description: `Le dépôt Git de cette page web actuelle où vous pouvez explorer le code source et suivre l'évolution du projet.`,
-		state: 'in-progress',
+		state: 'completed',
 		experiences: 'personal',
 		screenshots: ['logo.png', 'uneautreimage.png'].map(
 			img => `${PATH_LOGO}portfolio/${img}`

@@ -143,7 +143,9 @@ const BlogsSection = ({ onPopupOpen }) => {
 											) : (
 												<button
 													onClick={() =>
-														onPopupOpen('project', currentBlog.href)
+														currentBlog.href?.startsWith('exp-')
+															? onPopupOpen('experience', currentBlog.href.replace(/^exp-/, ''))
+															: onPopupOpen('project', currentBlog.href)
 													}
 													className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold py-2 px-4 rounded-md shadow hover:shadow-lg hover:scale-105 transition-all duration-200"
 												>

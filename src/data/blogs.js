@@ -1,27 +1,37 @@
 const blogs = [
 	{
 		id: 1,
-		title: `Recherche d'alternance en développement (septembre 2025 - août 2026)`,
-		description: `Je recherche une alternance en développement pour ma 3ᵉ année (sept. 2025 - août 2026). 
+		title: `Toujours en recherche d'une alternance dans le développement pour ma 3ème année de BUT Informatique (2025-2026)`,
+		description: `Je recherche une alternance en développement pour ma 3ᵉ année (oct. 2025 - août 2026). 
         Disponible une semaine sur deux en entreprise jusqu’en mars, puis à plein temps.`,
-		date: '28/03/2025',
+		date: '14/10/2025',
 		href: '/assets/CV_Alternance_Lucas_DEJESUSTEIXEIRA.pdf',
 		img: null,
 		button: 'Télécharger mon CV',
 	},
 	{
 		id: 2,
-		title: 'Portfolio en travaux',
-		description: `Création d'un nouveau portfolio utilisant JavaScript, 
-        TypeScript et React pour une interface moderne et dynamique.`,
-		date: '27/03/2025',
-		href: 'portfolio',
+		title: `Recherche un stage dans le développement pour ma 3ème année de BUT Informatique (2025-2026)`,
+		description: `Je recherche un stage en développement de 16-20 semaines (mars 2026 - août 2026) pour ma 3ᵉ année.`,
+		date: '14/10/2025',
+		href: '/assets/CV_Stage_Lucas_DEJESUSTEIXEIRA.pdf',
 		img: null,
-		button: 'Découvrir le projet',
+		button: 'Télécharger mon CV',
 	},
 	{
 		id: 3,
-		title: 'Nouveau Projet - Dwidder',
+		title: 'Stage de 2ème année - Mise en conformité du parc et réseau',
+		description: `J'ai achevé mon stage de 2ème année de BUT Informatique chez AS AFA, vous y trouverez ci-dessous mon rapport de stage. 
+		Durant ce stage, j'ai travaillé sur la mise en conformité du parc informatique et réseau de l'entreprise, assurant la sécurité et l'efficacité des systèmes en place. 
+		J'ai aussi à travers cette expérience acquis de l'expérience dans l'automatisation et le développement.`,
+		date: '31/06/2025',
+		href: 'exp-stage-info',
+		img: '/images/experiences/as-afa.png',
+		button: 'Découvrir mon stage',
+	},
+	{
+		id: 4,
+		title: 'Projet de BUT2 - Dwidder',
 		description: `Dwidder est un réseau social inspiré de Twitter et Facebook, utilisant JakartaEE et JSP. 
         Il intègre PostgreSQL via JDBC, propose des posts, réactions, messagerie, groupes privés, 
         ainsi qu'une API REST et une interface d'administration.`,
@@ -31,15 +41,14 @@ const blogs = [
 		button: 'Découvrir le projet',
 	},
 	{
-		id: 4,
-		title: 'Nouveau Projet - Hagario',
-		description: `Jeu développé en JavaScript, inspiré du célèbre jeu Agar.io, 
-        offrant une expérience multijoueur immersive avec des fonctionnalités similaires au jeu original.`,
-		date: '25/03/2025',
-		href: 'hagario',
-		img: '/images/projects/hagario/logo.png',
+		id: 5,
+		title: 'Projet de BUT3',
+		description: `Différents projets sont en cours de développement pour ma 3ème année de BUT Informatique. La création d'un émulateur en C et un site de booking en JavaEE. Les détails seront bientôt disponibles.`,
+		date: '14/10/2025',
+		href: 'exp-but-info',
+		img: 'https://media.licdn.com/dms/image/v2/D4E0BAQE4TCoGVGb_tw/company-logo_200_200/company-logo_200_200/0/1683019038335/iut_de_lille_logo?e=2147483647&v=beta&t=wyaar0k1HAPvJFpxL3OsNFVNwP0WuRtT1q7CIHd_8No',
 		button: 'Découvrir le projet',
-	},
+	}
 ];
 
 export default blogs;

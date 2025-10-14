@@ -52,6 +52,26 @@ const techStack = [
 		categories: 'dev',
 	},
 	{
+		id: 'm365',
+		title: 'Microsoft 365 & Environnement Cloud',
+		description: `J'ai acquis de solides compétences dans l'écosystème Microsoft 365 à travers la mise en œuvre 
+		de solutions automatisées. J'ai utilisé à travers mon stage les différents services de Microsoft 365 (SharePoint, Forms, Lists, Outlook et Teams). 
+		J'ai également exploité Power Automate pour automatiser des processus métiers complexes, tout en garantissant la sécurité et la traçabilité 
+		des informations au sein de l'organisation.`,
+		experiences: 'stage-info',
+		categories: 'env',
+	},
+	{
+		id: 'powerautomate',
+		title: 'Power Automate & Automatisation Low-Code',
+		description: `J'ai conçu et déployé plusieurs workflows automatisés avec Power Automate pour optimiser 
+		la gestion des missions internes d'une organisation. J'ai interconnecté SharePoint, Forms, Outlook et Lists 
+		afin de créer un système complet de suivi, validation et relance automatique. Cette expérience m’a permis 
+		de renforcer mes compétences en logique, en algorithmique et en modélisation de flux low-code.`,
+		experiences: 'stage-info',
+		categories: 'dev',
+	},
+	{
 		id: 'css',
 		title: 'Bootstrap, TailwindCSS',
 		description: `J'ai eu l'occasion d'utiliser différents frameworks CSS, tels que Bootstrap et TailwindCSS, 
