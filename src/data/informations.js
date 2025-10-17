@@ -3,18 +3,19 @@ const informations = {
 	nav: [
 		{ id: 'accueil', name: 'Accueil' },
 		{ id: 'section-skills', name: 'Compétences' },
-		{ id: 'section-experiences', name: 'Parcours et Expériences' },
+		{ id: 'section-experiences', name: 'Parcours et expériences' },
 		{ id: 'section-projects', name: 'Projets' },
-		{ id: 'section-aboutme', name: 'Me Contacter' },
+		{ id: 'section-aboutme', name: 'Me contacter' },
 	],
-	presentation: `Je me nomme Lucas DE JESUS TEIXEIRA, j'ai 20 ans et je suis actuellement étudiant en troisième année de BUT Informatique, parcours Réalisation d'Applications : Conception, Développement, Validation à l'Université de Lille.
-    Passionné par l'informatique depuis toujours, je me suis spécialisé dans le développement, où je souhaite concrétiser ma passion en créant des projets innovants et concrets.
-    Toujours curieux et motivé, je suis à la recherche de nouvelles opportunités pour enrichir mes compétences et collaborer avec des personnes partageant ma passion.`,
+	presentation: `Je m'appelle Lucas DE JESUS TEIXEIRA. J'ai 20 ans et je suis actuellement étudiant en troisième année de BUT Informatique, parcours Réalisation d'Applications : Conception, Développement, Validation à l'Université de Lille.
+	Passionné par l'informatique depuis toujours, je me suis spécialisé dans le développement, où je souhaite concrétiser ma passion en créant des projets innovants et concrets.
+	Après ma troisième année, je prévois de poursuivre mes études en master en informatique, avec une spécialisation en intelligence artificielle, ou d'intégrer un cycle d'ingénieur en ingénierie informatique, statistique et intelligence artificielle.
+	Toujours curieux et motivé, je suis à la recherche de nouvelles opportunités pour enrichir mes compétences et collaborer avec des personnes partageant ma passion.`,
 	birth: '10/05/2005',
 	driverLicense: 'B',
 	location: `Villeneuve-d'Ascq, France`,
 	links: {
-		cv: '/assets/CV_Alternance_Lucas_DEJESUSTEIXEIRA.pdf',
+		cv: '/assets/CV_Stage_Lucas_DEJESUSTEIXEIRA.pdf',
 		github: 'https://github.com/lucasdjt',
 		linkedIn: 'https://www.linkedin.com/in/lucasdjt',
 		linkedInIcon:

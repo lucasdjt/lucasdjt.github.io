@@ -116,6 +116,22 @@ const techStack = [
 		categories: 'dev',
 	},
 	{
+		id: 'mysql',
+		title: 'MySQL',
+		description: `Durant mon stage, j'ai aussi dû manipuler une base de données MySQL pour structurer et organiser les données du parc informatique. J'ai pu la déployer et utiliser les requêtes SQL pour interagir avec la base de données.`,
+		experiences: 'stage-info',
+		projects: [],
+		categories: 'dev',
+	},
+	{
+		id: 'mongodb',
+		title: 'MongoDB',
+		description: `Lors de mon apprentissage de Python, j'ai découvert MongoDB, une base de données NoSQL orientée documents. J'ai appris les bases des données non relationnelles et à effectuer quelques opérations CRUD. Je verrais plus de NoSQL durant ma 3ème année de BUT.`,
+		experiences: 'personal',
+		projects: [],
+		categories: 'dev',
+	},
+	{
 		id: 'c',
 		title: 'C',
 		description: `J'ai acquis de solides bases en langage C, notamment dans la gestion de la mémoire dynamique à l'aide des pointeurs et des fonctions telles que malloc() et free(). Je maîtrise également la manipulation de fichiers ainsi que l'écriture de programmes structurés en exploitant des fonctions, des structures et des tableaux.`,

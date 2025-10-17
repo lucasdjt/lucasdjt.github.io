@@ -14,7 +14,7 @@ const hobbies = [
 		title: 'Jeux vidéo',
 		description: `Les jeux vidéo représentent pour moi bien plus qu’un simple divertissement :
         Ils ont été une source de créativité et d'imagination à travers des jeux de construction
-        comme Minecraft, que ce soit au niveau de leur interface, des mécaniques de gameplay ou de leur algorithmique.`,
+        comme Minecraft, que ce soit au niveau de leur interface ou de leur algorithmique.`,
 	},
 	{
 		id: 'djing',

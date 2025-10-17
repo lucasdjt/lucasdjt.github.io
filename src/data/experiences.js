@@ -59,6 +59,7 @@ const experiences = [
         Ce stage m’a permis de renforcer mes compétences en administration système, automatisation low-code, scripting Linux, cybersécurité et gestion de projet, tout en développant ma rigueur, mon autonomie et ma capacité d’adaptation.
         Habitué à travailler sur des environnements complexes et à proposer des solutions concrètes, je combine désormais une approche technique solide et une vision orientée amélioration continue, essentielle pour accompagner la digitalisation d’une entreprise moderne.`,
 		techStack: [
+			{ anchor: 'mysql', title: 'Configuration de la base de données MySQL' },
 			{ anchor: 'linux', title: 'Linux, utilisation de scripts Bash' },
 			{ anchor: 'conteneurs', title: 'Docker, Docker Compose' },
 			{ anchor: 'windows', title: 'Gestion de PC Windows, installation et configuration' },

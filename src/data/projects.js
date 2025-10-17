@@ -12,6 +12,38 @@ const experiencesTitle = [
 ];
 
 const projects = [
+/*
+	{
+		id: 'booking',
+		path: `${PATH_LOGO}booking/`,
+		title: 'Site de Booking',
+		github: '',
+		date: '17/10/2025',
+		description: `Projet en cours de 3ème année de BUT Informatique visant à développer un site de Booking.`,
+		state: 'in-progress',
+		experiences: 'but-info',
+		screenshots:
+		skills: [ SQL, JAVAEE, MAVEN, NoSQL (bientôt)
+		],
+		oldVersions: [
+		],
+	},
+	{
+		id: 'emulateur',
+		path: `${PATH_LOGO}emulateur/`,
+		title: 'Emulateur',
+		github: '',
+		date: '17/10/2025',
+		description: `Projet en cours de 3ème année de BUT Informatique visant à développer un émulateur.`,
+		state: 'in-progress',
+		experiences: 'but-info',
+		screenshots:
+		skills: [ C++, VAGRANT...
+		],
+		oldVersions: [
+		],
+	}
+*/
 	{
 		id: 'portfolio',
 		path: `${PATH_LOGO}portfolio/`,
