@@ -38,6 +38,14 @@ const techStack = [
 		categories: 'dev',
 	},
 	{
+		id: 'spring',
+		title: 'Spring / Spring Boot',
+		description: `Je maîtrise le développement d’API REST avec Spring Boot, l’architecture en couches, ainsi que la persistance des données avec JPA / Hibernate. J’ai utilisé ces technologies durant l'un de mes projets de 3ème année de BUT Informatique.`,
+		experiences: 'but-info',
+		projects: [/* booking */],
+		categories: 'dev',
+	},
+	{
 		id: 'm365',
 		title: 'Microsoft 365 & Environnement Cloud',
 		description: `J'ai acquis de solides compétences dans l'écosystème Microsoft 365 à travers la mise en œuvre de solutions automatisées. J'ai utilisé, lors de mon stage, les différents services de Microsoft 365 (SharePoint, Forms, Lists, Outlook et Teams). J'ai également exploité Power Automate pour automatiser des processus métiers complexes, tout en garantissant la sécurité et la traçabilité des informations au sein de l'organisation.`,
@@ -137,6 +145,14 @@ const techStack = [
 		description: `J'ai acquis de solides bases en langage C, notamment dans la gestion de la mémoire dynamique à l'aide des pointeurs et des fonctions telles que malloc() et free(). Je maîtrise également la manipulation de fichiers ainsi que l'écriture de programmes structurés en exploitant des fonctions, des structures et des tableaux.`,
 		experiences: 'but-info',
 		projects: [],
+		categories: 'dev',
+	},
+	{
+		id: 'c++',
+		title: 'C++',
+		description: `J'ai acquis de solides bases en langage C++ lors de la réalisation d'un émulateur durant ma 3ème année de BUT. J'ai dû apprendre en autonomie ce langage pour pouvoir réaliser ce projet.`,
+		experiences: 'but-info',
+		projects: [/*emulateur*/],
 		categories: 'dev',
 	},
 	{
