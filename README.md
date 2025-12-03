@@ -9,6 +9,9 @@ Ce projet est une page web dynamique réalisée avec React, permettant de prése
 ```bash
 npm i
 npm start
+
+npm run predeploy
+npm run deploy
 ```
 
 ## Licence

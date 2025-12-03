@@ -1,8 +1,8 @@
 const blogs = [
 	{
 		id: 1,
-		title: `Recherche d'un stage dans le développement orienté DATA pour ma 3ᵉ année de BUT Informatique (2025-2026)`,
-		description: `Je recherche un stage en développement orienté DATA d'une durée de 16 à 20 semaines (mars 2026 - août 2026), afin de poursuivre en Master Informatique, spécialité IA, ou en cycle d'ingénieur en ISIA.`,
+		title: `Recherche d'un stage dans le développement informatique pour ma 3ᵉ année de BUT Informatique (2025-2026)`,
+		description: `Je recherche un stage en développement informatique d'une durée de 16 à 18 semaines (mars 2026 - juillet 2026), afin de poursuivre en Master Informatique, spécialité IA, ou en cycle d'ingénieur en ISIA.`,
 		date: '14/10/2025',
 		href: '/assets/CV_Stage_Lucas_DEJESUSTEIXEIRA.pdf',
 		img: null,
