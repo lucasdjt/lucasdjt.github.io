@@ -10,7 +10,7 @@ const techStack = [
 		title: 'Java',
 		description: `Java est l'un des langages de programmation les plus populaires et polyvalents. Durant mes années en BUT, j'ai développé une solide expertise des bases de Java et des principes fondamentaux de la programmation orientée objet (POO). Ces compétences ont été mises en pratique dans plusieurs projets marquants, notamment le développement d'un jeu d'échecs utilisant la bibliothèque Swing, ainsi que la création d'un réseau social en s'appuyant sur Jakarta.`,
 		experiences: 'but-info',
-		projects: ['dwidder', 'chess', 'classification', 'miniagile'],
+		projects: ['booktondj','dwidder', 'chess', 'classification', 'miniagile'],
 		categories: 'dev',
 	},
 	{
@@ -26,7 +26,7 @@ const techStack = [
 		title: 'JDBC, JavaEE, JSP, Tomcat',
 		description: `J'ai développé de solides compétences en JavaEE, me permettant de concevoir et d'implémenter des applications web en utilisant JDBC, JEE, JSP et le serveur applicatif Tomcat. Ces compétences ont été pleinement mobilisées dans le cadre du projet Dwidder, où j'ai démontré ma capacité à intégrer efficacement les technologies de l'écosystème JavaEE.`,
 		experiences: 'but-info',
-		projects: ['dwidder'],
+		projects: ['booktondj','dwidder'],
 		categories: 'dev',
 	},
 	{
@@ -42,7 +42,7 @@ const techStack = [
 		title: 'Spring / Spring Boot',
 		description: `Je maîtrise le développement d’API REST avec Spring Boot, l’architecture en couches, ainsi que la persistance des données avec JPA / Hibernate. J’ai utilisé ces technologies durant l'un de mes projets de 3ème année de BUT Informatique.`,
 		experiences: 'but-info',
-		projects: [/* booking */],
+		projects: ['booktondj'],
 		categories: 'dev',
 	},
 	{
@@ -64,7 +64,7 @@ const techStack = [
 		title: 'Bootstrap, TailwindCSS',
 		description: `J'ai eu l'occasion d'utiliser différents frameworks CSS, tels que Bootstrap et TailwindCSS, que j'ai intégrés dans plusieurs projets pour concevoir des interfaces utilisateur modernes et réactives. Ces outils m'ont permis de gagner en efficacité dans le développement front-end. Leur utilisation a été mise en valeur dans des projets tels que Dwidder et mon Portfolio.`,
 		experiences: 'but-info',
-		projects: ['dwidder', 'portfolio'],
+		projects: ['booktondj','dwidder', 'portfolio'],
 		categories: 'dev',
 	},
 	{
@@ -112,7 +112,7 @@ const techStack = [
 		title: 'API REST',
 		description: `J'ai appris à utiliser et intégrer une API REST, permettant à mon réseau social d'envoyer et de recevoir des données via des requêtes HTTP.`,
 		experiences: 'but-info',
-		projects: ['dwidder'],
+		projects: ['booktondj','dwidder'],
 		categories: 'dev',
 	},
 	{
@@ -120,7 +120,7 @@ const techStack = [
 		title: 'PostgreSQL',
 		description: `J'ai acquis des compétences dans les bases de données relationnelles, en particulier avec PostgreSQL, ainsi que dans l'écriture de requêtes SQL avancées permettant de manipuler et d'analyser les données. Ces compétences sont mises en œuvre dans le projet Dwidder, où PostgreSQL est utilisé pour stocker les données de l'application.`,
 		experiences: 'but-info',
-		projects: ['dwidder'],
+		projects: ['booktondj','dwidder'],
 		categories: 'dev',
 	},
 	{
@@ -134,8 +134,8 @@ const techStack = [
 	{
 		id: 'mongodb',
 		title: 'MongoDB',
-		description: `Lors de mon apprentissage de Python, j'ai découvert MongoDB, une base de données NoSQL orientée documents. J'ai appris les bases des données non relationnelles et à effectuer quelques opérations CRUD. Je verrais plus de NoSQL durant ma 3ème année de BUT.`,
-		experiences: 'personal',
+		description: `Lors de mon apprentissage de Python, j'ai découvert MongoDB, une base de données NoSQL orientée documents. J'ai appris les bases des données non relationnelles et à effectuer quelques opérations CRUD. Je l'ai appris aussi durant ma 3ème année de BUT.`,
+		experiences: 'but-info',
 		projects: [],
 		categories: 'dev',
 	},
@@ -152,7 +152,7 @@ const techStack = [
 		title: 'C++',
 		description: `J'ai acquis de solides bases en langage C++ lors de la réalisation d'un émulateur durant ma 3ème année de BUT. J'ai dû apprendre en autonomie ce langage pour pouvoir réaliser ce projet.`,
 		experiences: 'but-info',
-		projects: [/*emulateur*/],
+		projects: ['emulateur'],
 		categories: 'dev',
 	},
 	{
@@ -177,6 +177,8 @@ const techStack = [
 		description: `Je maîtrise Git et l'utilise dans tous mes projets, ce qui me permet de gérer les différentes versions, de suivre les modifications et de faciliter le travail collaboratif. Ces compétences ont été appliquées sur deux plateformes de gestion de dépôts distants : GitHub et GitLab.`,
 		experiences: 'but-info',
 		projects: [
+			'booktondj',
+			'emulateur',
 			'portfolio',
 			'hagario',
 			'dwidder',
@@ -191,7 +193,7 @@ const techStack = [
 		title: 'Docker, Podman',
 		description: `Je maîtrise les bases de la virtualisation via des conteneurs, en utilisant des outils tels que Docker et Podman. Cela inclut la création et la gestion de conteneurs pour isoler les applications et optimiser leur déploiement, et l'utilisation d'images conteneurisées et de Dockerfile pour simplifier l'intégration des solutions.`,
 		experiences: 'but-info',
-		projects: [],
+		projects: ['emulateur'],
 		categories: 'env',
 	},
 	{
@@ -199,7 +201,7 @@ const techStack = [
 		title: 'Linux',
 		description: `J'ai développé des compétences solides en administration système, en réseau, et en scripting shell, grâce à l'utilisation du système d'exploitation Linux. Cela inclut la création de scripts Shell pour automatiser et optimiser les processus, la maîtrise des commandes essentielles de Linux pour la gestion des fichiers, des permissions et des configurations réseau, et une compréhension des bases de l'environnement Linux, permettant de travailler efficacement dans divers contextes.`,
 		experiences: 'but-info',
-		projects: ['dwidder', 'classification'],
+		projects: ['emulateur', 'dwidder', 'classification'],
 		categories: 'env',
 	},
 	{
@@ -247,7 +249,7 @@ const techStack = [
 		title: 'Architecture MVC',
 		description: `J'ai appris à réaliser des projets sous une architecture MVC (Modèle-Vue-Contrôleur), où j'ai structuré et organisé mon code de manière efficace. Cette architecture a été mise en œuvre dans trois projets différents.`,
 		experiences: 'but-info',
-		projects: ['chess', 'classification', 'dwidder'],
+		projects: ['booktondj','chess', 'classification', 'dwidder'],
 		categories: 'env',
 	},
 	{

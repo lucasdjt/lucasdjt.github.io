@@ -21,28 +21,40 @@ const experiences = [
 		],
 		projects: [
 			{
+				anchor: 'booktondj',
+				title: 'Book Ton DJ',
+				description:
+					'Projet réalisé au 5ème semestre utilisant le développement web, plus particulièrement avec la framework Java Spring',
+			},
+			{
+				anchor: 'emulateur',
+				title: 'Emulateur',
+				description:
+					'Projet réalisé au 5ème semestre utilisant C++.',
+			},
+			{
 				anchor: 'hagario',
 				title: 'Hagar.io',
 				description:
-					'Projet réalisé au S4 utilisant JavaScript, Node.js et Socket.io',
+					'Projet réalisé au 4ème semestre utilisant JavaScript, Node.js et Socket.io',
 			},
 			{
 				anchor: 'dwidder',
 				title: 'Dwidder',
 				description:
-					'Projet réalisé au S4 utilisant JavaEE, PostgreSQL et Tomcat.',
+					'Projet réalisé au 4ème semestre utilisant JavaEE, PostgreSQL et Tomcat.',
 			},
 			{
 				anchor: 'classification',
 				title: 'Application de Classification',
 				description:
-					'Projet réalisé au S3 utilisant Java, JavaFX, Modèle MVC et des fichiers CSV.',
+					'Projet réalisé au 3ème semestre utilisant Java, JavaFX, Modèle MVC et des fichiers CSV.',
 			},
 			{
 				anchor: 'miniagile',
 				title: 'Projet en méthodologie Agile',
 				description:
-					'Projet réalisé au S3 en Java suivant la méthodologie Agile.',
+					'Projet réalisé au 3ème semestre en Java suivant la méthodologie Agile.',
 			},
 		],
 		link: 'https://iut.univ-lille.fr/',

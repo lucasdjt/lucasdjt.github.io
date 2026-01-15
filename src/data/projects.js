@@ -12,18 +12,25 @@ const experiencesTitle = [
 ];
 
 const projects = [
-/*
 	{
-		id: 'booking',
-		path: `${PATH_LOGO}booking/`,
-		title: 'Site de Booking',
-		github: '',
-		date: '17/10/2025',
-		description: `Projet en cours de 3ème année de BUT Informatique visant à développer un site de Booking.`,
+		id: 'booktondj',
+		path: `${PATH_LOGO}booktondj/`,
+		title: 'Book Ton DJ',
+		github: 'https://github.com/lucasdjt/booktondj',
+		date: '10/01/2025',
+		description: `Projet en cours de 3ème année de BUT Informatique visant à développer n'importe quel site à partir d'un modèle en utilisant la framework Java Spring.`,
 		state: 'in-progress',
 		experiences: 'but-info',
-		screenshots:
-		skills: [ SQL, JAVAEE, MAVEN, NoSQL (bientôt)
+		screenshots: [],
+		skills: [
+			{ anchor: 'java', title: 'Java' },
+			{ anchor: 'javaee', title: 'JSP, Tomcat' },
+			{ anchor: 'spring', title: 'Java Spring' },
+			{ anchor: 'css', title: 'TailwindCSS' },
+			{ anchor: 'api', title: 'API Rest' },
+			{ anchor: 'postgresql', title: 'H2 (PostgreSQL)' },
+			{ anchor: 'git', title: 'GitLab' },
+			{ anchor: 'mvc-model', title: 'MVC' },
 		],
 		oldVersions: [
 		],
@@ -32,18 +39,21 @@ const projects = [
 		id: 'emulateur',
 		path: `${PATH_LOGO}emulateur/`,
 		title: 'Emulateur',
-		github: '',
+		github: 'https://github.com/lucasdjt/emulateur',
 		date: '17/10/2025',
-		description: `Projet en cours de 3ème année de BUT Informatique visant à développer un émulateur.`,
+		description: `Projet en cours de 3ème année de BUT Informatique visant à développer un émulateur risc-v.`,
 		state: 'in-progress',
 		experiences: 'but-info',
-		screenshots:
-		skills: [ C++, VAGRANT...
+		screenshots: [],
+		skills: [
+			{ anchor: 'c++', title: 'C++' },
+			{ anchor: 'git', title: 'GitLab' },
+			{ anchor: 'conteneurs', title: 'Docker, Dockerfile' },
+			{ anchor: 'emulateur', title: 'Linux' },
 		],
 		oldVersions: [
 		],
-	}
-*/
+	},
 	{
 		id: 'portfolio',
 		path: `${PATH_LOGO}portfolio/`,
