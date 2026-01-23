@@ -8,7 +8,7 @@ const informations = {
 		{ id: 'section-aboutme', name: 'Me contacter' },
 	],
 	presentation: `Je m'appelle Lucas DE JESUS TEIXEIRA. J'ai 20 ans et je suis actuellement étudiant en troisième année de BUT Informatique, parcours Réalisation d'Applications : Conception, Développement, Validation à l'Université de Lille.
-	Passionné par l'informatique depuis toujours, je me suis spécialisé dans le développement, où je souhaite concrétiser ma passion en créant des projets innovants et concrets.
+	Passionné par l'informatique depuis toujours, je me suis spécialisé dans le développement, où je souhaite concrétiser ma passion en créant ou en contribuant à des projets innovants et concrets.
 	Toujours curieux et motivé, je suis à la recherche de nouvelles opportunités pour enrichir mes compétences et collaborer avec des personnes partageant ma passion.`,
 	birth: '10/05/2005',
 	driverLicense: 'B',

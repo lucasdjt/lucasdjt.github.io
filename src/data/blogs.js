@@ -10,18 +10,18 @@ const blogs = [
 	},
 	{
 		id: 2,
-		title: 'Projet de BUT3 - BookTonDJ',
-		description: `En binôme, nous réalisont actuellement un projet utilisant Spring.`,
-		date: '20/03/2025',
-		href: 'booktondj',
+		title: 'Projet de BUT3 - BookTaPlace',
+		description: `Projet de 3ᵉ année de BUT Informatique réalisé en binôme, consistant à développer une application web de réservation basée sur Spring Boot, avec authentification, gestion des réservations et interface d’administration.`,
+		date: '26/01/2026',
+		href: 'booktaplace',
 		img: null,
 		button: 'Découvrir le projet',
 	},
 	{
 		id: 3,
 		title: 'Projet de BUT3 - Emulateur',
-		description: `En binôme, nous réalisont actuellement un projet utilisant C++`,
-		date: '20/03/2025',
+		description: `Projet de 3ᵉ année de BUT Informatique réalisé en binôme, visant à concevoir un émulateur RISC-V en C++.`,
+		date: '26/01/2026',
 		href: 'emulateur',
 		img: null,
 		button: 'Découvrir le projet',
@@ -29,9 +29,7 @@ const blogs = [
 	{
 		id: 4,
 		title: 'Stage de 2ᵉ année - Mise en conformité du parc et du réseau',
-		description: `J'ai achevé mon stage de 2ᵉ année de BUT Informatique chez AS AFA, vous trouverez ci-dessous mon rapport de stage. 
-		Durant ce stage, j'ai travaillé sur la mise en conformité du parc informatique et du réseau de l'entreprise, assurant la sécurité et l'efficacité des systèmes en place. 
-		J'ai également acquis de l'expérience dans l'automatisation, la classification de données et le développement.`,
+		description: `Stage de 2ᵉ année de BUT Informatique effectué au sein de l’AS AFA, axé sur la mise en conformité du parc informatique et du réseau. Déploiement d’une CMDB (Snipe-IT), automatisation de processus métiers avec Power Automate et participation à la sécurisation du système d’information.`,
 		date: '30/06/2025',
 		href: 'exp-stage-info',
 		img: '/images/experiences/as-afa.png',

@@ -21,10 +21,10 @@ const experiences = [
 		],
 		projects: [
 			{
-				anchor: 'booktondj',
-				title: 'Book Ton DJ',
+				anchor: 'booktaplace',
+				title: 'Book Ta Place',
 				description:
-					'Projet réalisé au 5ème semestre utilisant le développement web, plus particulièrement avec la framework Java Spring',
+					'Projet réalisé au 5ème semestre utilisant le développement web, plus particulièrement avec la framework Spring Boot',
 			},
 			{
 				anchor: 'emulateur',
@@ -33,8 +33,8 @@ const experiences = [
 					'Projet réalisé au 5ème semestre utilisant C++.',
 			},
 			{
-				anchor: 'hagario',
-				title: 'Hagar.io',
+				anchor: 'agariolike',
+				title: 'Jeu web multijoueur client-serveur',
 				description:
 					'Projet réalisé au 4ème semestre utilisant JavaScript, Node.js et Socket.io',
 			},
@@ -42,7 +42,7 @@ const experiences = [
 				anchor: 'dwidder',
 				title: 'Dwidder',
 				description:
-					'Projet réalisé au 4ème semestre utilisant JavaEE, PostgreSQL et Tomcat.',
+					'Projet réalisé au 4ème semestre utilisant Java EE, PostgreSQL et Tomcat.',
 			},
 			{
 				anchor: 'classification',
@@ -65,11 +65,7 @@ const experiences = [
 		logo: 'https://as-afa.fr/wp-content/uploads/sites/12/2022/05/logo-as-afa.png',
 		title: 'Stage - Mise en conformité du parc et réseau informatique',
 		subtitle: 'Stage effectué chez AS AFA à Arras',
-		description: `Durant mon stage de huit semaines à l’AS AFA, j’ai contribué activement à la modernisation du système d’information d’une structure comptant plus de 120 postes et plusieurs serveurs répartis sur différents sites.
-        J’ai déployé Snipe-IT, un outil open source de gestion de parc informatique, en assurant l’installation sur Linux Debian, la structuration de la base de données, l’importation et le croisement des données réelles, ainsi que la mise en place de sauvegardes automatisées via un script Bash.
-        En parallèle, j’ai conçu et implémenté une solution d’automatisation des missions internes à l’aide de Power Automate, interconnectée avec SharePoint, Forms, Outlook et Lists, permettant une gestion fluide, traçable et sécurisée des flux métiers.
-        Ce stage m’a permis de renforcer mes compétences en administration système, automatisation low-code, scripting Linux, cybersécurité et gestion de projet, tout en développant ma rigueur, mon autonomie et ma capacité d’adaptation.
-        Habitué à travailler sur des environnements complexes et à proposer des solutions concrètes, je combine désormais une approche technique solide et une vision orientée amélioration continue, essentielle pour accompagner la digitalisation d’une entreprise moderne.`,
+		description: `Pendant mon stage de seconde année, j'ai eu 2 tâches principales : Déploiement et configuration d’une CMDB avec Snipe-IT et automatisation des missions internes via Power Automate. Ce stage m’a permis de renforcer mes compétences en bases de données, automatisation et scripting Linux, tout en intervenant sur des outils utilisés en production dans un environnement professionnel.`,
 		techStack: [
 			{ anchor: 'mysql', title: 'Configuration de la base de données MySQL' },
 			{ anchor: 'linux', title: 'Linux, utilisation de scripts Bash' },
@@ -82,7 +78,7 @@ const experiences = [
 		],
 		projects: [],
 		link: '/assets/Rapport_de_stage_Lucas_DEJESUSTEIXEIRA.pdf',
-		date: 'Avril 2025 - Juin 2025',
+		date: 'Avril 2025 - Mai 2025',
 	},
 	{
 		id: 'sti2d',
